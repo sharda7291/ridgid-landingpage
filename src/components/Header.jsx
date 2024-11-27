@@ -15,12 +15,11 @@ const Header = () => {
           <div className="icon p-2 me-2">
             <img
               className="img-fluid"
-              src="img/icon-deal.png"
+              src="https://mlw8xh8ekfzs.i.optimole.com/w:auto/h:auto/q:mauto/ig:avif/https://aztc.in/wp-content/uploads/2024/08/LOGO3.png"
               alt="Icon"
-              style={{ width: "30px", height: "30px" }}
+              style={{ height: "30px" }}
             />
           </div>
-          <h1 className="m-0 text-primary">Makaan</h1>
         </a>
 
         {/* Toggle Button for Smaller Screens */}
@@ -47,7 +46,7 @@ const Header = () => {
               About
             </a>
 
-            {/* Property Dropdown */}
+            {/* Property Dropdown
             <div className="nav-item dropdown">
               <a
                 href="#"
@@ -67,9 +66,9 @@ const Header = () => {
                   Property Agent
                 </a>
               </div>
-            </div>
+            </div> */}
 
-            {/* Pages Dropdown */}
+            {/* Pages Dropdown
             <div className="nav-item dropdown">
               <a
                 href="#"
@@ -86,7 +85,7 @@ const Header = () => {
                   404 Error
                 </a>
               </div>
-            </div>
+            </div> */}
 
             <a href="contact.html" className="nav-item nav-link">
               Contact
@@ -95,7 +94,7 @@ const Header = () => {
 
           {/* Add Property Button */}
           <a href="#" className="btn btn-primary px-3 d-none d-lg-flex">
-            Add Property
+            Whatsapp
           </a>
         </div>
       </nav>

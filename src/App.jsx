@@ -1,6 +1,12 @@
 import React from 'react'
 import Header from './components/Header'
 import Slider from './components/Slider'
+import Form from './components/form'
+import Product from './components/Product'
+import ProductStock from './components/ProductStock'
+import Cta from './components/Cta'
+import Testimonial from './components/Testimonial'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -14,6 +20,12 @@ function App() {
       </div> */}
       <Header/>
       <Slider/>
+      <Form/>
+      <Product/>
+      <ProductStock/>
+      <Cta/>
+      <Testimonial/>
+      <Footer/>
 </div>
 
     </>

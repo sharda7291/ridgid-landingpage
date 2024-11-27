@@ -1,6 +1,10 @@
 import React from 'react'
-import img from '../assets/img/carousel-1.jpg'
-import img2 from '../assets/img/carousel-2.jpg'
+ import img from '../assets/img/ridgid/img1.png'
+ import img2 from '../assets/img/carousel-2.jpg'
+// import $ from 'jquery';  // Make sure jQuery is installed
+import '../assets/lib/owlcarousel/assets/owl.carousel.min.css';  // Adjusted import path
+import '../assets/lib//owlcarousel/assets/owl.theme.default.min.css';  // Adjusted import path
+// import 'owl.carousel'; 
 
 function Slider() {
   return (
@@ -10,11 +14,10 @@ function Slider() {
         {/* Text Section */}
         <div className="col-md-6 p-5 mt-lg-5">
           <h1 className="display-5 animated fadeIn mb-4">
-            Find A <span className="text-primary">Perfect Home</span> To Live With Your Family
+          Explore RIDGID: <span className="text-danger">Professional-Grade Tools</span>  for Every Job, Every Time!
           </h1>
           <p className="animated fadeIn mb-4 pb-2">
-            Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et
-            diam justo clita et kasd rebum sea elitr.
+          RIDGID tools are built to withstand the toughest jobs, providing industry-leading performance, precision, and durability. Whether you're a professional plumber, contractor, or technician, trust RIDGID for reliable solutions that make your work easier and more efficient.
           </p>
           <a href="#" className="btn btn-primary py-3 px-5 me-3 animated fadeIn">
             Get Started
@@ -23,13 +26,13 @@ function Slider() {
 
         {/* Image Carousel Section */}
         <div className="col-md-6 animated fadeIn">
-          <div className="owl-carousel header-carousel">
+          <div className=" header-carousel">
             <div className="owl-carousel-item">
               <img className="img-fluid" src= {img} alt="Carousel 1" />
             </div>
-            <div className="owl-carousel-item">
+            {/* <div className="owl-carousel-item">
               <img className="img-fluid" src={img2} alt="Carousel 2" />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
